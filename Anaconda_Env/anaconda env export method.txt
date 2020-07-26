@@ -1,0 +1,10 @@
+geforce gtx 1660 super
+capability : 7.5
+
+
+export
+conda activate env_name
+conda env export > env_name.yaml ¶Ç´Â conda env export > env_name.yml 
+
+import
+conda env create -f env_name.yaml
